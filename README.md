@@ -1,4 +1,15 @@
-# gulp-simple-template
+# express + nodejs + gulp 搭建可打包压缩的静态资源服务器
+
+## express + nodejs
+> 用node + express搭建的静态资源服务器，适用于简单的h5页面
+
+### 运行
+
+#### 1.打开服务器
+
+> `node app.js`
+
+## gulp-simple-template
 > 简单的 gulp 项目配置，适用于一般简单的xiang项目
 
 - gulp 自动化
@@ -6,17 +17,17 @@
 - html、css、js 代码压缩，添加MD5
 - gulp-autoprefixer 浏览器私有前缀自动补全
 
-## 运行
+### 运行
 
-### 1. 编译并生成开发版本
+#### 1. 编译并生成开发版本
 
 > `npm run dev` 或者 `gulp dev`
 
-### 2. 本地运行开发版本，支持实时刷新
+#### 2. 本地运行开发版本，支持实时刷新
 
 > `npm run run` 或者 `gulp run`
 
-### 3. 输出生产版本，添加 MD5
+#### 3. 输出生产版本，添加 MD5
 
 > `npm run dist` 或者 `gulp dist`
 
